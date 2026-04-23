@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZYNEX | DEFUMOR</title>
+
+<style>
+body{
+margin:0;
+font-family:'Segoe UI',sans-serif;
+background:#0b1a1f;
+color:#e0f7f7;
+}
+
+header{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.85),rgba(0,0,0,.95)),
+url('https://images.unsplash.com/photo-1518770660439-4636190af475');
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+header h1{
+font-size:65px;
+color:#00ffe1;
+letter-spacing:6px;
+text-shadow: 0 0 10px #00ffe1, 0 0 20px #00ffe1, 0 0 40px #00ffe1;
+}
+
+header h2{
+letter-spacing:4px;
+color:#7fffd4;
+}
+
+.btn{
+margin-top:20px;
+padding:12px 25px;
+background:#00ffe1;
+color:#000;
+border-radius:10px;
+cursor:pointer;
+font-weight:bold;
+}
+
+section{
+max-width:1100px;
+margin:auto;
+padding:25px;
+}
+
+.card{
+background:#102a33;
+padding:20px;
+border-radius:15px;
+margin-bottom:20px;
+}
+
+h2{color:#00ffe1;}
+
+img{
+display:block;
+margin:auto;
+max-width:80%;
+border-radius:12px;
+margin-top:10px;
+}
+
+.grid-graficas{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:10px;
+}
+
+th,td{
+border:1px solid #00ffe1;
+padding:8px;
+text-align:center;
+}
+
+.precio{
+background:#00ffe1;
+color:#000;
+padding:12px;
+text-align:center;
+font-weight:bold;
+border-radius:10px;
+margin-top:10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>ZYNEX</h2>
+<h1>DEFUMOR</h1>
+<p>Tecnología que actúa donde otros fallan</p>
+<button class="btn" onclick="document.getElementById('caratula').scrollIntoView()">Ver Proyecto</button>
+</header>
+
+<section id="caratula" class="card">
+<h2>Carátula del Proyecto</h2>
+<img src="grafica1.png">
+</section>
+
+<section class="card">
+<h2>Estudio de Mercado</h2>
+<p><b>Resumen:</b> Se realizó una encuesta a 60 agricultores de la parroquia Huachi Grande para analizar la necesidad de automatizar la fumigación.</p>
+
+<h3>Técnica de investigación</h3>
+<p>Encuesta directa con preguntas cerradas.</p>
+
+<h3>Encuesta</h3>
+<ol>
+<li>¿Demanda mucho tiempo?</li>
+<li>¿Posee áreas verdes?</li>
+<li>¿Qué cultivos tiene?</li>
+<li>¿Cómo cuida sembríos?</li>
+<li>¿Tecnología ayuda?</li>
+<li>¿Cómo fumiga?</li>
+<li>¿Automatizar?</li>
+<li>¿Robot fumigador?</li>
+<li>¿Compraría?</li>
+<li>¿Cuánto pagaría?</li>
+</ol>
+
+<h3>Tabulación</h3>
+<table>
+<tr><th>Pregunta</th><th>Resultado</th></tr>
+<tr><td>Demanda tiempo</td><td>90%</td></tr>
+<tr><td>Uso de tecnología</td><td>88%</td></tr>
+<tr><td>Fumigación manual</td><td>81%</td></tr>
+<tr><td>Automatización</td><td>70%</td></tr>
+<tr><td>Compra robot</td><td>66%</td></tr>
+</table>
+
+<h3>Presentación gráfica</h3>
+<div class="grid-graficas">
+<img src="grafica2.png">
+<img src="grafica3.png">
+<img src="grafica4.png">
+<img src="grafica5.png">
+<img src="grafica6.png">
+</div>
+</section>
+
+<section class="card">
+<h2>Planteamiento del Problema</h2>
+<p>La fumigación manual continúa siendo una de las tareas más riesgosas dentro del sector agrícola. Muchos trabajadores están expuestos diariamente a pesticidas que pueden causar problemas respiratorios, irritación de la piel, daños neurológicos e incluso enfermedades graves por exposición prolongada.</p>
+
+<ul>
+<li>Riesgo de intoxicación</li>
+<li>Mayor esfuerzo físico</li>
+<li>Pérdida de tiempo</li>
+<li>Desperdicio de agroquímicos</li>
+<li>Contaminación ambiental</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>Descripción del Emprendimiento</h2>
+<p><b>Razón social</b></p>
+<img src="grafica7.png">
+<p><b>Logotipo</b></p>
+<img src="grafica8.png">
+<p><b>Eslogan</b></p>
+<img src="grafica9.png">
+<p><b>Marca del producto</b></p>
+<img src="grafica16.png">
+</section>
+
+<section class="card">
+<h2>Objetivo General</h2>
+<p>Diseñar y construir un robot fumigador automatizado que permita aplicar productos químicos de forma segura, eficiente y uniforme en cultivos.</p>
+
+<h2>Objetivos Específicos</h2>
+<ul>
+<li>Reducir la exposición humana a sustancias tóxicas.</li>
+<li>Optimizar el uso del líquido fumigador.</li>
+<li>Automatizar el proceso agrícola.</li>
+<li>Permitir control desde una aplicación móvil.</li>
+<li>Reducir costos de mano de obra.</li>
+<li>Contribuir a una agricultura sostenible.</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>FODA</h2>
+<div class="grid">
+<div><b>Fortalezas</b>
+<ul>
+<li>Trabajo en equipo</li>
+<li>Innovación</li>
+<li>Liderazgo</li>
+<li>Creatividad</li>
+<li>Compromiso</li>
+</ul></div>
+
+<div><b>Oportunidades</b>
+<ul>
+<li>Alta demanda</li>
+<li>Tecnología en crecimiento</li>
+<li>Ferias tecnológicas</li>
+<li>Capacitación digital</li>
+<li>Apoyo externo</li>
+</ul></div>
+
+<div><b>Debilidades</b>
+<ul>
+<li>Poco capital</li>
+<li>Experiencia limitada</li>
+<li>Falta de recursos</li>
+<li>Poco conocimiento técnico</li>
+<li>Organización inicial</li>
+</ul></div>
+
+<div><b>Amenazas</b>
+<ul>
+<li>Competencia</li>
+<li>Fallos técnicos</li>
+<li>Robos</li>
+<li>Costos elevados</li>
+<li>Problemas de transporte</li>
+</ul></div>
+</div>
+</section>
+
+<section class="card">
+<h2>Misión</h2>
+<p>Mejorar la calidad de vida agrícola mediante tecnología segura.</p>
+
+<h2>Visión</h2>
+<p>Ser líderes en innovación agrícola.</p>
+
+<h2>Valores</h2>
+<p>Respeto, responsabilidad, honestidad, puntualidad</p>
+</section>
+
+<section class="card">
+<h2>Producto Innovador</h2>
+<p>El robot DEFUMOR automatiza la fumigacion agricola mediante tecnología moderna, permitiendo reducir el contacto directo del agricultor con químicos peligrosos, optimizar el uso de recursos y mejorar la productividad del cultivo.</p>
+
+<h2>Responsabilidad Social</h2>
+<p>ZYNEX contribuye reduciendo el uso excesivo de agroquímicos y protegiendo la salud del agricultor, disminuyendo la contaminación ambiental y promoviendo prácticas agrícolas sostenibles.</p>
+
+<h2>Análisis de Mercado</h2>
+<p>El producto está dirigido a agricultores que buscan optimizar tiempo, reducir esfuerzo físico y mejorar la eficiencia en sus cultivos mediante el uso de tecnología.</p>
+</section>
+
+<section class="card">
+<h2>Proceso de Elaboración</h2>
+<img src="grafica10.png">
+
+<h2>Representación del Robot</h2>
+<img src="grafica11.png">
+
+<h2>Características</h2>
+<ul>
+<li>Control móvil</li>
+<li>4 ruedas todo terreno</li>
+<li>Bomba automática</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>Representación para la Venta</h2>
+<img src="grafica12.png">
+<p><b>Precio del producto:</b></p>
+<div class="precio">$290</div>
+</section>
+
+<section class="card">
+<h2>Recursos Humanos</h2>
+<img src="grafica17.png">
+</section>
+
+<section class="card">
+<h2>Organigrama</h2>
+<img src="grafica13.png">
+<img src="grafica14.png">
+</section>
+
+<section class="card">
+<h2>Plan de Acción</h2>
+<p>Desarrollar, ensamblar, probar y presentar el robot fumigador en una feria tecnológica, asegurando su correcto funcionamiento y demostración práctica.</p>
+
+<h3>Recursos</h3>
+<ul>
+<li>Robot fumigador</li>
+<li>Carteles</li>
+<li>Mesas</li>
+<li>Globos</li>
+<li>Cuadernos</li>
+<li>Escoba</li>
+<li>Pala</li>
+<li>Toalla</li>
+</ul>
+
+<h3>Reglamento</h3>
+<img src="grafica15.png">
+</section>
+
+<section class="card">
+<h2>Recursos Financieros</h2>
+<table>
+<tr><th>Material</th><th>Cantidad</th><th>Total</th></tr>
+<tr><td>Arduino Uno</td><td>1</td><td>$15</td></tr>
+<tr><td>Motores reductores</td><td>4</td><td>$40</td></tr>
+<tr><td>Ruedas</td><td>4</td><td>$20</td></tr>
+<tr><td>Servo MG90</td><td>2</td><td>$10</td></tr>
+<tr><td>Bomba 12V</td><td>1</td><td>$12</td></tr>
+<tr><td>Baterías 18650</td><td>5</td><td>$25</td></tr>
+<tr><td>Portapilas</td><td>1</td><td>$6</td></tr>
+<tr><td>Relay</td><td>1</td><td>$5</td></tr>
+<tr><td>Puente H</td><td>1</td><td>$6</td></tr>
+<tr><td>Protoboard</td><td>1</td><td>$8</td></tr>
+<tr><td>Cables</td><td>1</td><td>$6</td></tr>
+<tr><td>Mangueras</td><td>2</td><td>$4</td></tr>
+<tr><td>Conectores</td><td>1</td><td>$5</td></tr>
+<tr><td>Impresión 3D</td><td>1</td><td>$30</td></tr>
+<tr><td>Recipiente</td><td>1</td><td>$10</td></tr>
+<tr><td>Otros cables</td><td>1</td><td>$10</td></tr>
+<tr><th>Total</th><th></th><th>$222.05</th></tr>
+</table>
+</section>
+
+</body>
+</html>
